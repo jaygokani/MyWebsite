@@ -53,8 +53,10 @@ body
 }
 
 /*---------------------------------*/
-#topic
+
+.topic
 {
+	overflow: auto;
 	background-color: #8ac4d0; //#87CEEB;
 	padding: 10px;
 	border: 5px solid black;
@@ -62,13 +64,15 @@ body
 	margin: 40px;
 	width: 300px;
 }
-#topic:hover
+.topic:hover
 {
 	background-color: #dbf6e9;
 	cursor: pointer;
+	border-radius: 10px;
+	border: 5px solid black;
 }
 
-#topicContent
+.topicContent
 {
 	background-color: #dbf6e9; //green
 	padding: 10px;
