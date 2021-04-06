@@ -104,14 +104,13 @@ footer
 {
 	padding: 20px;
 	//margin: 10px;
-	border: 2px solid black;
-	border-radius: 10px;
-	border-bottom: 20px solid black;
+	//border: 2px solid black;
+	//border-radius: 10px;
+	border-top: 2px solid black;
 }
 
 footer a
 {
-	float: center;
 	color: black;
 	text-align: center;
 	padding: 20px;
