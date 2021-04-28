@@ -36,12 +36,6 @@ a, a:hover
 	color: black;
 }
 
-.navbar-rest
-{
-	padding: 20px;
-	font-size: 1.25em;
-	color: #353535;
-}
 .navbar-rest:hover
 {
 	background-color: white;
@@ -72,6 +66,12 @@ a, a:hover
 		margin: 10px 15px 10px 0;
 		border-radius: 100px;
 	}
+	.navbar-rest
+	{
+		padding: 20px;
+		font-size: 1.25em;
+		color: #353535;
+	}
 }
 
 /* Medium screens */
@@ -89,16 +89,16 @@ a, a:hover
 		margin: 10px 15px 10px 0;
 		border-radius: 100px;
 	}
-}
-
-/* Some unknown anamoly */
-@media (min-width: 576px) and (max-width: 897px)
-{
-
+	.navbar-rest
+	{
+		padding: 20px;
+		font-size: 1.25em;
+		color: #353535;
+	}
 }
 
 /* Small screens */
-@media (min-width: 360px) and (max-width: 991px)
+@media (min-width: 768px) and (max-width: 991px)
 {
 	#logo-img
 	{
@@ -115,6 +115,59 @@ a, a:hover
 	.navigate
 	{
 		margin-bottom: 50px;
+	}
+}
+
+/* Extra small screens */
+@media (max-width: 767px)
+{
+	#logo-img
+	{
+		background: url('../images/logoImgR.png') no-repeat;
+		width: 150px;
+		height: 150px;
+		margin: 10px 15px 10px 0;
+		border-radius: 100px;
+	}
+	.container-fluid
+	{
+		height: 100px;
+	}
+	.navbar-rest
+	{
+		display: none;
+	}
+	.navigate
+	{
+		margin-bottom: 50px;
+		margin-right: 20px;
+	}
+	h1
+	{
+		margin-left: 10px;
+		margin-bottom: 70px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 510px)
+{
+	.container-fluid
+	{
+		//background-color: red;
+	}
+	h1
+	{
+		font-size: 1em;
+		line-height: 10px;
+		margin-bottom: 120px;
+	}
+	#logo-img
+	{
+		display: none;
+	}
+	.navigate
+	{
+
 	}
 }
 
