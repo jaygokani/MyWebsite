@@ -1,0 +1,85 @@
+*, *:before, *:after
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-size: 16px;
+	color: #fff; /*Font-color*/
+	background-color: #353535; //#C6D8FF; /*whole-background*/
+	font-family: 'Oxygen', sans-serif;
+}
+
+header
+{
+	background-color: #D2D7DF;
+}
+
+/* Large screens */
+@media (min-width: 1200px)
+{
+	.container-fluid
+	{
+		height: 120px;
+	}
+}
+/* Medium screens */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+/* Small screens */
+@media (max-width: 991px)
+{
+
+}
+
+#logo-img
+{
+	background: url('../images/logoImgR.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	//border: 2px solid black;
+	border-radius: 100px;
+	//border-color: transparent;
+	float: left;
+	margin-left: 50px 
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-rest
+{
+	padding: 20px;
+	font-size: 1.25em;
+}
+.navbar-rest:hover
+{
+	background-color: white;
+	border-radius: 100px;
+	color: black;
+	cursor: pointer;
+}
+
+
+
+
+/*------------------------------------------
+.container
+{
+	background-color: blue;
+}
+.navbar
+{
+	background-color: red;
+}
+.navbar-default
+{
+	background-color: pink;
+}
+/*------------------------------------------*/
