@@ -30,18 +30,6 @@ header
 }
 
 
-#logo-img
-{
-	background: url('../images/logoImgR.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
-	//border: 2px solid black;
-	border-radius: 100px;
-	//border-color: transparent;
-	float: left;
-	margin-left: 50px 
-}
 a, a:hover
 {
 	text-decoration: none;
@@ -57,7 +45,9 @@ a, a:hover
 .navbar-rest:hover
 {
 	background-color: white;
-	border-radius: 100px;
+	border-radius: 20px;
+	padding-bottom: 0;
+	padding-top: 0;
 	color: black;
 	cursor: pointer;
 }
@@ -72,18 +62,60 @@ a, a:hover
 {
 	.container-fluid
 	{
-		height: 120px;
+		height: 100px;
+	}
+	#logo-img
+	{
+		background: url('../images/logoImgR.png') no-repeat;
+		width: 150px;
+		height: 150px;
+		margin: 10px 15px 10px 0;
+		border-radius: 100px;
 	}
 }
+
 /* Medium screens */
 @media (min-width: 992px) and (max-width: 1199px)
 {
-
+	.container-fluid
+	{
+		height: 120px;
+	}
+	#logo-img
+	{
+		background: url('../images/logoImgR.png') no-repeat;
+		width: 150px;
+		height: 150px;
+		margin: 10px 15px 10px 0;
+		border-radius: 100px;
+	}
 }
-/* Small screens */
-@media (max-width: 991px)
+
+/* Some unknown anamoly */
+@media (min-width: 576px) and (max-width: 897px)
 {
 
+}
+
+/* Small screens */
+@media (min-width: 360px) and (max-width: 991px)
+{
+	#logo-img
+	{
+		background: url('../images/logoImgR.png') no-repeat;
+		width: 150px;
+		height: 150px;
+		margin: 10px 15px 10px 0;
+		border-radius: 100px;
+	}
+	.container-fluid
+	{
+		height: 100px;
+	}
+	.navigate
+	{
+		margin-bottom: 50px;
+	}
 }
 
 
