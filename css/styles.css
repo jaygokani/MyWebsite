@@ -107,7 +107,6 @@ a, a:hover
 
 .popup
 {
-	//display: none;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -121,7 +120,10 @@ a, a:hover
 }
 .popup:hover
 {
-	display: ;
+	font-size: 1.8em;
+	background-color: #fff;
+	color: #000;
+	opacity: 0.8;
 }
 
 /*---------------------------------------------------------------------*/
