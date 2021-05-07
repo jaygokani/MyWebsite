@@ -27,6 +27,7 @@ body
 header
 {
 	background-color: #D2D7DF;
+	height: 130px;
 }
 
 
@@ -50,19 +51,27 @@ a, a:hover
 	
 }
 
-/* Picture Slide */
+/*--------------------------------- Picture Slide ---------------------------------*/
 .jumbotron
 {
 	box-shadow: 0 0 50px #D2D7DF;
 	margin-top: 55px;
 	margin-bottom: 55px;
+	position: relative;
+}
+.quote
+{
+	font-family: serif;
+	font-size: 1.75em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-/* Main Content */
+/*--------------------------------- Main Content ---------------------------------*/
 .col-lg-4
 {
-	//background-color: red;
-	//margin-left: 0px;
 	text-align: center;
 }
 .topics
@@ -86,7 +95,7 @@ a, a:hover
 	background-position: center;
 	background-size: cover;
 }
-#sci
+#science
 {
 	background: url('../images/moritz-kindler-G66K_ERZRhM-unsplash.jpg') no-repeat;
 	background-size: cover;
@@ -101,6 +110,24 @@ a, a:hover
 #tech
 {
 	background: url('../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#history
+{
+	background: url('../images/clarisse-meyer-jKU2NneZAbI-unsplash (1).jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#travel
+{
+	background: url('../images/annie-spratt-qyAka7W5uMY-unsplash.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#conspiracy
+{
+	background: url('../images/tarik-haiga-BxELNNMN88Y-unsplash.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -120,13 +147,43 @@ a, a:hover
 }
 .popup:hover
 {
-	font-size: 1.8em;
 	background-color: #fff;
 	color: #000;
 	opacity: 0.8;
 }
+/*------------------------------------------------------------------*/
+/*-------------------------------- Footer ----------------------------------*/
+footer
+{
+	//position: relative;
+	border-top: 5px solid black;
+	border-radius: 10px;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	line-height: 25px;
+	//background-color: ;
+}
+footer a
+{
+	color: white;
+}
 
-/*---------------------------------------------------------------------*/
+.highlight
+{
+	font-size: 1.15em;
+	font-weight: bold;
+}
+
+.copyright
+{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
 /* Large screens */
 @media (min-width: 1200px)
 {
@@ -136,10 +193,10 @@ a, a:hover
 		//height: 675px;
 		//border: 2px solid #353535;
 	}
-	.container-fluid
+	/*.container-fluid
 	{
 		height: 100px;
-	}
+	}*/
 	#logo-img
 	{
 		background: url('../images/logoImgR.png') no-repeat;
@@ -159,10 +216,10 @@ a, a:hover
 /* Medium screens */
 @media (min-width: 992px) and (max-width: 1199px)
 {
-	.container-fluid
+	/*.container-fluid
 	{
 		height: 120px;
-	}
+	}*/
 	#logo-img
 	{
 		background: url('../images/logoImgR.png') no-repeat;
@@ -182,6 +239,15 @@ a, a:hover
 /* Small screens */
 @media (min-width: 768px) and (max-width: 991px)
 {
+	.quote
+	{
+		font-family: serif;
+		font-size: 1.25em;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 	#logo-img
 	{
 		background: url('../images/logoImgR.png') no-repeat;
@@ -190,10 +256,10 @@ a, a:hover
 		margin: 10px 15px 10px 0;
 		border-radius: 100px;
 	}
-	.container-fluid
+	/*.container-fluid
 	{
 		height: 100px;
-	}
+	}*/
 	.navigate
 	{
 		margin-bottom: 50px;
@@ -216,10 +282,10 @@ a, a:hover
 		margin: 10px 15px 10px 0;
 		border-radius: 100px;
 	}
-	.container-fluid
+	/*.container-fluid
 	{
 		height: 100px;
-	}
+	}*/
 	.navbar-rest
 	{
 		display: none;
@@ -238,11 +304,15 @@ a, a:hover
 
 @media (min-width: 200px) and (max-width: 510px)
 {
-	.container-fluid
+	.jumbotron
 	{
-		//background-color: red;
-		height: 80px;
+		margin-top: 500px;
 	}
+	/*.container-fluid
+	{
+		background-color: red;
+		height: 80px;
+	}*/
 	h1
 	{
 		font-size: 1em;
@@ -266,19 +336,3 @@ a, a:hover
 		margin-top: 25px;
 	}
 }
-
-
-/*------------------------------------------
-.container
-{
-	background-color: blue;
-}
-.navbar
-{
-	background-color: red;
-}
-.navbar-default
-{
-	background-color: pink;
-}
-/*------------------------------------------*/
