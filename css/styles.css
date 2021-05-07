@@ -47,13 +47,25 @@ a, a:hover
 }
 .navbar-brand:hover
 {
-	color: 
+	
+}
+
+/* Main Content */
+.jumbotron
+{
+	box-shadow: 0 0 50px #D2D7DF;
 }
 
 
 /* Large screens */
 @media (min-width: 1200px)
 {
+	.jumbotron
+	{
+		//background-image: url('../images/greg-rakozy-0LU4vO5iFpM-unsplash (2).jpg');
+		//height: 675px;
+		//border: 2px solid #353535;
+	}
 	.container-fluid
 	{
 		height: 100px;
@@ -154,22 +166,40 @@ a, a:hover
 	.container-fluid
 	{
 		//background-color: red;
+		height: 80px;
 	}
 	h1
 	{
 		font-size: 1em;
 		line-height: 10px;
-		margin-bottom: 120px;
+		margin-top: 20px;
+		//margin-bottom: 120px;
 	}
 	#logo-img
 	{
-		display: none;
+		background: url('../images/logo-xs3.png') no-repeat;
+		width: 45px;
+		height: 45px;
 	}
 	.navigate
 	{
-
+		line-height: 15px;
 	}
 }
+/*------------------- Main Content -----------------------*/
+.main-content
+{
+	margin-top: 65px;
+}
+
+.jumbotron > h2
+{
+	//background-color: red;
+	//border-top: 2px solid black;
+	//border-radius: 15px;
+	//text-align: center;
+}
+
 
 
 /*------------------------------------------
