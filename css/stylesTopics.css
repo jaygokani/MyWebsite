@@ -53,12 +53,21 @@ a, a:hover
 	margin-top: 70px;
 	font-size: 3em;
 }
+.topics-sub
+{
+	margin-bottom: 40px;
+}
 
 .cards
 {
-	margin-top: 20px;
+	position: relative;
+	margin: 0 auto 15px;
+	overflow: hidden;
 	//background-color: red;
-	padding: 20px;
+	//border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+
 }
 .row img
 {
@@ -67,7 +76,7 @@ a, a:hover
 }
 .row img:hover
 {
-	box-shadow: 0 1px 5px 2px #cccccc;
+	box-shadow: 0 1px 10px 5px #cccccc;
 }
 
 /*-------------------------------- Footer ----------------------------------*/
@@ -274,8 +283,36 @@ footer a
 	}
 }
 
-@media (max-width: 575px)
+/*====================== Tweaks and Customs ======================*/
+@media (max-width: 595px)
 {
+	.custom-xs-4
+	{
+		width: 33.33333333333333%;
+	}
+
+	.cards
+	{
+		position: relative;
+		//margin: 0 auto 15px;
+		overflow: hidden;
+		//background-color: red;
+		//border: 1px solid black;
+		padding: 10px;
+		text-align: center;
+
+	}
+	.row img:hover
+	{
+		box-shadow: 0 1px 10px 2px #cccccc;
+	}
+
+	img
+	{
+		width: 100px;
+		height: 100px;
+	}
+
 	footer
 	{
 		//background-color: red;
@@ -289,5 +326,32 @@ footer a
 	footer section
 	{
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 575px)
+{
+	.custom-xs-4
+	{
+		width: 33.33333333333333%;
+	}
+
+	.cards
+	{
+		position: relative;
+		//margin: 0 auto 15px;
+		overflow: hidden;
+		//background-color: red;
+		//border: 1px solid black;
+		padding: 10px;
+		//text-align: center;
+	}
+}
+
+@media (max-width: 305px)
+{
+	.custom-xxs-12
+	{
+		width: 100%;
 	}
 }
