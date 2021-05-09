@@ -54,6 +54,22 @@ a, a:hover
 	font-size: 3em;
 }
 
+.cards
+{
+	margin-top: 20px;
+	//background-color: red;
+	padding: 20px;
+}
+.row img
+{
+	//border: 1px solid black;
+	border-radius: 35px;
+}
+.row img:hover
+{
+	box-shadow: 0 1px 5px 2px #cccccc;
+}
+
 /*-------------------------------- Footer ----------------------------------*/
 footer
 {
@@ -89,6 +105,21 @@ footer a
 /* Large screens */
 @media (min-width: 1200px)
 {
+/*	.cards
+	{
+		margin-top: 20px;
+		//background-color: red;
+		padding: 20px;
+	}
+	.row img
+	{
+		//border: 1px solid black;
+		border-radius: 35px;
+	}
+	.row img:hover
+	{
+		box-shadow: 0 1px 5px 2px #cccccc;
+	}*/
 	.jumbotron
 	{
 		//background-image: url('../images/greg-rakozy-0LU4vO5iFpM-unsplash (2).jpg');
