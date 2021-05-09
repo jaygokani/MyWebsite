@@ -46,108 +46,14 @@ a, a:hover
 	color: black;
 	cursor: pointer;
 }
-
-/*--------------------------------- Picture Slide ---------------------------------*/
-.jumbotron
-{
-	box-shadow: 0 0 50px #D2D7DF;
-	margin-top: 55px;
-	margin-bottom: 55px;
-	position: relative;
-}
-.quote
-{
-	font-family: serif;
-	font-size: 1.75em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-/*--------------------------------- Main Content ---------------------------------*/
-.col-lg-4
-{
-	text-align: center;
-}
+/*-------------------------------- Main Content - Topics --------------------*/
 .topics
 {
-	height: 250px;
-	width: 100%;
-	margin-bottom: 15px;
-	position: relative; //Doubt
-	border: 2px solid black;
-	overflow: hidden;
-	border-radius: 10px;
-}
-.topics:hover
-{
-	box-shadow: 0 1px 5px 2px #cccccc;
-}
-
-.topics
-{
-	background: url('../images/greg-rakozy-0LU4vO5iFpM-unsplash (2).jpg') no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-#science
-{
-	background: url('../images/moritz-kindler-G66K_ERZRhM-unsplash.jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#math
-{
-	background: url('../images/benjamin-lizardo-IZsbWBZ08cs-unsplash (3).jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#tech
-{
-	background: url('../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#history
-{
-	background: url('../images/clarisse-meyer-jKU2NneZAbI-unsplash (1).jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#travel
-{
-	background: url('../images/annie-spratt-qyAka7W5uMY-unsplash.jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#conspiracy
-{
-	background: url('../images/tarik-haiga-BxELNNMN88Y-unsplash.jpg') no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.popup
-{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
 	text-align: center;
-	font-size: 1.6em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: 0.8;
+	margin-top: 70px;
+	font-size: 3em;
 }
-.popup:hover
-{
-	background-color: #fff;
-	color: #000;
-	opacity: 0.8;
-}
-/*------------------------------------------------------------------*/
+
 /*-------------------------------- Footer ----------------------------------*/
 footer
 {
