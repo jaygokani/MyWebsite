@@ -67,7 +67,7 @@ a, a:hover
 	//border: 1px solid black;
 	padding: 10px;
 	text-align: center;
-
+	width: auto;
 }
 .row img
 {
@@ -76,8 +76,24 @@ a, a:hover
 }
 .row img:hover
 {
-	box-shadow: 0 1px 10px 5px #cccccc;
+	box-shadow: 0 1px 10px 1px #cccccc;
 }
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.modal-title, .modal-body > p, .modal-title
+{
+	color: white;
+}
+
+.modal-content
+{
+	background-color: #353535;
+}
+
 
 /*-------------------------------- Footer ----------------------------------*/
 footer
@@ -284,8 +300,18 @@ footer a
 }
 
 /*====================== Tweaks and Customs ======================*/
+
+/*@media (min-width: 306) and (max-width: 595)
+{
+	.btn
+	{
+		border-color: red;
+	}
+}*/
+
 @media (max-width: 595px)
 {
+
 	.custom-xs-4
 	{
 		width: 33.33333333333333%;
